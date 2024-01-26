@@ -1,0 +1,15 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./pet_face_detection_dataset_2/test/
+val: ./pet_face_detection_dataset_2/test/
+test: ./pet_face_detection_dataset_2/test/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['face']

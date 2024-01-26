@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./pet_face_detection_dataset_1/test.txt
+val: ./pet_face_detection_dataset_1/test.txt 
+test: ./pet_face_detection_dataset_1/test.txt
+
+# number of classes
+nc: 1
+
+names: ['pet_face']
